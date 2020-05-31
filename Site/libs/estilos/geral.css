@@ -1,0 +1,147 @@
+*{
+    font-family: sans;
+    font-style: italic;
+    text-transform: uppercase;
+	  color: white;
+}
+body{
+		background-color: black;
+}
+.corpo{
+	margin:  auto;
+	width: 975px;
+	height: 100%;
+}
+header{
+	z-index: 1;
+	width: 975px;
+	top: 0px;
+ 	position: fixed;
+	height: 120px;
+	background-color: #373737;
+}
+nav {
+	height: 80px;
+	background-color: #373737;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	background-color: #373737;
+  color: #6e9e59;	
+}
+.menu{
+	font-family: sans;
+	font-weight:  bold;
+	background-color: #373737;
+}
+.logo{
+	margin-left: 5px;
+	display: inline-block;
+	max-height: 100px;
+	max-width: 200px;
+	background-color: #373737;
+  float: inline-start;
+	z-index: 2;
+}
+.nav1{
+	  padding-left: 0px;
+		display: inline-block;
+	  background-color: #373737;
+	  margin: inherit;
+}
+.nav1 a{
+	padding-left: 10px;
+}
+.nav2{
+		display: inline-block;
+  	float: inline-end;
+	  background-color: #373737;
+		margin-right: 40px;
+	  margin-left: 20px;
+    margin-top: -5px;
+}
+a{
+		text-decoration: none;
+		color: #6e9e59;
+		background-color: #373737;
+	  font-weight: bold;
+	  font-style:  italic;
+}
+.nav2Child1 img{
+  float: inline-end;
+	display: inline;
+	width: 20px;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+.nav2Child2 img{
+	display: inline;
+	width: 20px;
+	margin-left: 0px;
+}
+#eua{
+	float: inline-start;
+}
+#br{
+	float: inline-end;
+}
+#spain{
+  margin-right: 35px;
+	margin-left: 35px; 
+
+}
+#vimeo{
+	float: inline-end;
+	margin-left: 18px;
+}
+#insta{
+	margin-left: 12px;
+}
+#lnk{
+	margin-left: 15px;
+}
+
+section{
+	background-color: #4a4a4a;
+	text-align: justify;
+	border-bottom-style: solid; 
+	border-bottom-width: 50px;
+	border-bottom-color: black;
+}
+article{
+	padding-left: 50px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+aside{
+	display: inline-block;
+	width: 400px;
+	float: inline-end;
+	padding-right: 20px;
+}
+br{
+	margin-bottom: 10px;
+}
+h2{
+  display: inline-block;
+  padding-left: 8px;
+  font-size: 14pt;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+}
+.icones{
+	padding-left: 20px;
+	display: inline-block;
+	width: 25px;
+}
+h1.titles{
+	display: inline-block;
+  	color: #6e9e59;
+	font-weight: bold;
+	font-style:  italic;
+	font-size: 20pt;
+	padding-bottom: 20px;
+ 	padding-top: 20px;
+
+}

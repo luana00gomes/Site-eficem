@@ -1,0 +1,109 @@
+.blog article{
+	margin-left: 120px;
+}
+.blog h2{
+	width: 696px;
+	padding-top: 5px;
+	height: 20px;
+	text-align: center; 
+	color: antiquewhite;
+  position: absolute;
+	margin-top: -30px;
+	background-color: #3737;
+	border-style: solid;
+  border-width: 3px 2px 4px 2px;
+}
+
+.blog{
+	background-color: #373737;
+}
+
+
+input{
+	margin-bottom: 10px;
+	color: antiquewhite;
+	width: 530px;
+	height: 20px;
+	background-color: #373737;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #373737;
+	border-style: solid;
+	font-size: 8pt;
+}
+
+input[name=mensagem]{
+	height:150px;
+	text-align: unset;
+  overflow: scroll;
+}
+
+input[type=submit]{
+		width: 100px;
+	  height: 40px;
+	  text-align: center;
+   	float: inline-end;
+}
+
+.contato article{
+	width: 537px;
+	display: inline-block;
+}
+.contato aside{
+	display: inline-block;
+	width: 350px;
+}
+.contato aside h2{
+	margin-top: 5px;
+	font-weight: bold;
+	padding-left: 5px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.iconesCall{
+	display: inline-block;
+	padding: 0px;
+	padding-left: 20px;
+	margin-top: 0px;
+	width: 25px;
+}
+.contato .icones{
+	display: inline-block;
+	padding: 0px;
+	margin-top: 0px;
+	width: 20px;
+}
+.contato p{
+	display: inline-block;
+	float: inline-end;
+	font-size: 8pt;
+	width: 310px;
+	font-weight: bold;
+}
+br{
+		margin-bottom: 10px;
+}
+#envelope{
+	padding-top: 70px;
+	display: inline-block;
+}
+.contato h3{
+	display: inline-block;
+	float: inline-end;
+	font-size: 8pt;
+	width: 200px;
+	margin-top: -30px;
+	margin-right: 110px;
+	font-weight: bold;
+}
+#googleMap{
+	position: static;
+	height: 145px;
+	border-radius: 8px;
+}
+section{
+	margin-top: 120px;
+}
+.iconesCall{
+	margin-left: 35px;
+}

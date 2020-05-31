@@ -1,0 +1,11 @@
+.nav2{
+		display: inline-block;
+  	float: inline-end;
+	  background-color: #373737;
+		margin-right: 10px;
+	  margin-left: 0px;
+    margin-top: -5px;
+}
+.iconesMaior{
+	width: 30px;
+}

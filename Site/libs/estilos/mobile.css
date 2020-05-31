@@ -1,0 +1,65 @@
+@media screen and (max-width: 975px){
+body header{
+  width: 100%;
+}
+.e_verde{
+  width: 50px;
+}
+header{
+  position: static;
+}
+body section{
+  width: 100%;
+}
+.corpo{
+  width: 100%;
+}
+.video{
+  width: 100%;
+}
+.video object{
+  width: 100%;
+
+}
+
+section.apresentacao{
+  width: 100%;
+}
+.menuItem{
+  visibility: visible;
+  position: static;
+  
+}
+.conquistas{
+  visibility: hidden;
+  height: 0px;
+  border: 0px;
+}
+
+.projetos{
+  visibility: hidden;
+  height: 0px;
+  border: 0px;
+}
+
+.patrocinadores{
+  visibility: hidden;
+  height: 0px;
+  border: 0px;
+}
+
+.blog{
+  visibility: hidden;
+  height: 0px;
+  border: 0px;
+}
+
+.contato{
+  visibility: hidden;
+  height: 0px;
+  border: 0px;
+}
+#logo{
+  content:url("e_verde.png);
+}
+}

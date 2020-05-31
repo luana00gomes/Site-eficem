@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--abertura do arquivo html-->
+  <head><!--cabeçalho, informações que não estarão visíveis na página e sim na aba-->
+    <title>Go EFICEM</title><!--Title só é usado no head-->
+
+    <meta charset="utf-8">
+    <script src="js/html5.js"></script>
+    <meta name="description" 
+    content="Conheça a EFICEM - Equipe de Eficiência Energética da Universidade Federal de Santa Catarina">
+    <meta name="author" 
+    content="Naila Roberta Maccari; Luana Aparecida Gomes">
+    <meta name="keywords" 
+    content="eficiência, energética, carros, inovação, carros elétricos, shell eco marathon, protótipos, UFSC, Universidade Federal de Santa Catarina">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/reset.css">
+    <link rel="stylesheet" href="../estilos/geral.css">
+    <link rel="stylesheet" href="../estilos/contatos.css">
+    <link rel="shortcut icon" href="favicon2.ico">
+    <script src="libraries/jquery-3.3.1.min.js"></script>
+    <style>
+    </style>
+  </head>
+  
+  <body>
+  <div class="corpo">
+ 	<header>
+  	<nav>
+  		<a href="../../index.html" class="logo"><img src="../../imagens/logo.png"  class="logo"></a>
+  		 <div class="nav1">
+  		<a href="equipe.html" class="menu">A EQUIPE</a>
+  		<a href="projetos.html" class="menu">PROJETOS</a>
+  		<a href="patrocinadores.html" class="menu">PATROCINADORES</a>
+  		<a href="blog.html" class="menu">BLOG</a>
+ 		<a href="contatos.html" class="menu">CONTATO</a>
+ 		 </div>
+ 		 <div class="nav2">
+ 		 <div class="nav2Child1">
+ 		 <a href="contatos.html" background-color="gray"><img src="../../imagens/brazil.png" id="br"></a>
+  		<a href="../spanish/contatos.html"><img src="../../imagens/spain.png" id="spain"></a>
+  		<a href="../eng/contatos.html"><img src="../../imagens/united-states-of-america.png" id="eua"></a>
+  		</div>
+
+  		<div class="nav2Child2">
+   		<a href="https://www.facebook.com/Eficem/?ref=br_rs" id="fb">
+   			<img src="../../imagens/Facebook.png" class=""></a>
+   		<a href="https://www.instagram.com/eficemufsc/" id="insta">
+   			<img src="../../imagens/instagram.png" class=""></a>
+     		<a href="https://www.linkedin.com/company/eficem/?originalSubdomain=pt" id="lnk">
+     			<img src="../../imagens/linkedin.png" class=""></a>
+     		<a href="/libs/" id="vimeo">
+     			<img src="../../imagens/vimeo.png" class=""></a>
+     		 </div>
+     		 </div>
+  	</nav>
+  	</header>
+  	
+  	<main>
+  		<section class="contato">
+  		<img src="../../imagens/call.png" class="iconesCall">
+  		<h1 class="titles">Contato</h1><br>
+  		
+  		<article>
+  			<form action="" method="post">
+  				<input type="text" name="nome" value="Nome"><br>
+  				<input type="email" name="endereco_eletronico" value="Email"><br>
+  				<input type="text" name="assunto" value="Assunto"><br>
+  				<input type="text" name="mensagem" value="Mensagem"><br> 			    					<input type="submit" value="Enviar"><br>				
+  			</form>
+  		</article>
+  		
+  		<aside>
+  			<img src="../../imagens/information.png" class="icones">
+  			<h2 class="titles">Informações</h2><br>
+  			
+  			<img src="../../imagens/placeholder.png" class="icones">
+  			<p class="titles">Universidade Federal de Santa Catarina - Campus Joinville<br>
+  			R. Dona Francisca, 8300 - Distrito Industrial de Joinville<br>
+  			CEP: 89.219-600</p>
+  			
+  			<grid>
+  			<img src="../../imagens/black-envelope.png" id="envelope" class="icones">
+  			<h3>Eficem@contato.ufsc.br</h3><br>
+  			</grid>
+  			<div id="googleMap"></div>
+<!--
+	FAZER REGISTRO NO GOOGLE CLOUND PEDINDO ACESSO AO MAPS
+
+-->
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(-26.234708, -48.884008),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+</script>
+</aside>
+  		
+  		
+  	</section>  	
+  	</main>
+  	<footer>
+  	</footer>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+.primeira{
+  position: static;
+  margin-top:120px;
+  height: 70px;
+	border-bottom-width: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+}
+.icones{
+  display: inline-block;
+  margin-left: 18px;
+  width: 18px;
+}
+.iconesMaior{
+  padding: 30px 0px 0px 20px;
+  width: 30px;
+}
+.icones{
+      padding: 0px 0px 0px 40px;
+}
+#historia h2{
+  margin-top: 5px;
+}
+p{
+  margin-top: 0px;
+  width: 900px;
+  margin-left: 56px;
+}
+
+
+#integrantes img.iconesM{
+  padding-top: 17px;
+	width: 50px;
+}
+.faces img{
+	display: inline;
+	background-color: white;
+	padding: 0px;
+	width: 90px;
+	height: 90px;
+	border-radius: 8%;
+	object-fit: cover;
+	margin: 10px 20px 20px 10px;
+}
+#diferentao{
+  transform: rotate(90deg);
+}
+#last{
+  height: 0px;
+	visibility: hidden;
+}
+.faces a{
+  background-color: #4a4a4a;
+}
