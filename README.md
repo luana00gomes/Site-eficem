@@ -5,7 +5,7 @@ Esta é a versão que programei em 2018 para o site da Equipe de Eficiência Ene
 <ul>
 <li>Adicionar mais imagens ao site </li>
   
-<li>Criar um sistema de banco de dados para retirar os textos dos arquivos html</li>
+<li>Criar um sistema de banco de dados para remover os textos dos arquivos html</li>
 
 <li>Reduzir a qualidade das fotos dos membros do time para aumentar eficiência do site</li>
 
