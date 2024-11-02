@@ -1,20 +1,20 @@
-# Site-eficem
-Esta é a versão que programei em 2018 para o site da Equipe de Eficiência Energética da UFSC, que serviu como base para que posteriormente outros desenvolvedores adicionassem conteúdo escrito e deixassem o site mais dinâmico.
+# Energy Efficiency Team Website
+This is the version I programmed in 2018 for the Energy Efficiency Team at UFSC. It served as a foundation for other developers to later add written content and make the website more dynamic.
 
-<h2>Próximos passos</h2>
+<h2>Next Steps</h2>
 <ul>
-<li>Adicionar mais imagens ao site </li>
+<li>Add more images to the site</li>
   
-<li>Criar um sistema de banco de dados para remover os textos dos arquivos html</li>
+<li>Create a database system to separate text content from HTML files</li>
 
-<li>Reduzir a qualidade das fotos dos membros do time para aumentar eficiência do site</li>
+<li>Optimize team member photos by reducing image quality to enhance site performance</li>
 
-<li>Mudar fontes para layout mais amigável</li>
+<li>Update fonts to improve layout and readability</li>
 
-<li>Adicionar efeitos com JavaScript</li>
+<li>Add JavaScript effects for interactivity</li>
 
-<li>Concertar erro do formulário com php (mensagens não estão sendo enviadas para o e-mail corretamente)</li>
+<li>Fix PHP form error (messages aren’t being sent to email correctly)</li>
 
-<li>Adicionar footer tag ao site</li>
+<li>Add a footer tag to complete the site structure</li>
 
 </ul>
